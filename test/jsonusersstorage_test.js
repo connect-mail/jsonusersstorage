@@ -15,8 +15,6 @@ var fs = require('fs');
 
 var Storage = require('../lib/jsonusersstorage.js');
 
-
-
 describe('Storage', function() {
     var originalConfigFile = 'test/user-storage/original-users.json',
         configFile = 'test/user-storage/users.json',

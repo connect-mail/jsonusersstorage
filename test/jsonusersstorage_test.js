@@ -13,7 +13,6 @@ chai.expect();
 var should = chai.should();
 var fs = require('fs');
 
-
 var Storage = require('../lib/jsonusersstorage.js');
 
 
